@@ -9,7 +9,7 @@
   </head>
 
   <body>
-          <a-scene mindar-image="imageTargetSrc: https://cdn.glitch.global/b08091d8-2ebd-4277-9f0e-5d160ad8d8bb/targets.mind?v=1673579435543; maxTrack: 2" color-space="sRGB" renderer="colorManagement: true, physicallyCorrectLights" vr-mode-ui="enabled: false" device-orientation-permission-ui="enabled: false">
+          <a-scene mindar-image="imageTargetSrc: https://cdn.glitch.global/b08091d8-2ebd-4277-9f0e-5d160ad8d8bb/targets3.mind?v=1673674247050; maxTrack: 2" color-space="sRGB" renderer="colorManagement: true, physicallyCorrectLights" vr-mode-ui="enabled: false" device-orientation-permission-ui="enabled: false">
             <a-assets>
               <a-asset-item id="welcomeModel" src="https://cdn.glitch.global/b08091d8-2ebd-4277-9f0e-5d160ad8d8bb/pictureframeglb.glb?v=1673520661679"></a-asset-item>
               <a-asset-item id="frameModel" src="https://cdn.glitch.global/b08091d8-2ebd-4277-9f0e-5d160ad8d8bb/bearglb.glb?v=1673582113579"></a-asset-item>
@@ -41,6 +41,20 @@
             </a-entity>
 
 
+
+
+
+            <a-entity mindar-image-target="targetIndex: 5">
+              <a-gltf-model rotation="0 0 0 " position="0 -0.25 0" scale="0.005 0.005 0.005" src="#tableModel" animation-mixer>
+            </a-entity>
+
+            <a-entity mindar-image-target="targetIndex: 6">
+              <a-gltf-model rotation="0 0 0 " position="0 -0.25 0" scale="0.002 0.002 0.002" src="#chairModel" animation-mixer>
+            </a-entity>
+
+            <a-entity mindar-image-target="targetIndex: 7">
+              <a-gltf-model rotation="0 0 0 " position="0 -0.25 0" scale="0.002 0.002 0.002" src="#bedModel" animation-mixer>
+            </a-entity>
 
 
       <style>
